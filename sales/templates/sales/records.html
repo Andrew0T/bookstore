@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head> 
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css'%}"> 
+    <script src="{% static 'sales/home.js' %}" defer></script>
+
+</head>
+
+<h1> Search for sales records</h1>
+
+<hr>
+<br>
+<form action="" method="POST">
+    {% csrf_token %}
+    {{form}}
+    <button class="submit-btn" > Search </button>
+</form>
+
+<br>
+
+{% if sales_df %}
+    {{sales_df|safe}}
+    <br>
+    <img src="data:image/png;base64, {{chart|safe}}">
+{% else %}
+    <h2> no data</h2>
+{% endif %}
+</html>

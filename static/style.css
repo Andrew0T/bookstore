@@ -1,0 +1,23 @@
+h1 { 
+  color: blue;
+  text-align: center;
+}
+
+h2 {
+  color: green;
+  font-style: italic;
+  text-align: center;
+}
+
+.login-button,
+.submit-btn {
+  background-color: lightgrey;
+  color: blue;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  transition: 0.2s opacity;
+}
+
+

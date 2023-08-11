@@ -1,0 +1,9 @@
+# Text backup files
+*.bak
+*.pyc
+
+# Database
+*.sqlite3
+
+# Do not upload your settings file because of the security risk
+my_bookstore_settings.py
