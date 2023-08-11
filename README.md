@@ -1,4 +1,4 @@
-# bookstore
+# Bookstore
  
  This the coding exercise to produce a working Django application
 
