@@ -1,6 +1,6 @@
 # Bookstore
  
-  The Bookstore Application code was the basis on which ro orduce a working Django application.
+  The Bookstore Application was the example given to learn to produce a working Django application.
   Career Foundry Python 2nd achievement
 
 # Features
