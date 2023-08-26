@@ -25,4 +25,4 @@
 
 # Image
 
-https://github.com/Andrew0T/bookstore/blob/main/no_picture.jpg?raw=true
+https://github.com/Andrew0T/bookstore/blob/main/no_picture.jpg
