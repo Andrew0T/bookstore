@@ -9,6 +9,7 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
+
 import os
 import dj_database_url
 from pathlib import Path
@@ -26,8 +27,29 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY','django-insecure-ml49cp(e)=yakpe
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+# security.W004
+SECURE_HSTS_SECONDS = 86400 # 86400 seconds 24 hours
 
+# security.W005
+SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+
+# security.W006
+SECURE_CONTENT_TYPE_NOSNIFF = True
+
+# security.W008
+SECURE_SSL_REDIRECT = True
+
+# security.W012
+SESSION_COOKIE_SECURE = True
+
+# security.W016
+CSRF_COOKIE_SECURE = True
+
+# security.W020
+ALLOWED_HOSTS = ['127.0.0.1', 'bookstore-20230811.herokuapp.com']
+
+# security.W021
+SECURE_HSTS_PRELOAD = True
 
 # Application definition
 
