@@ -46,7 +46,7 @@ SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 
 # security.W020
-ALLOWED_HOSTS = ['127.0.0.1', 'bookstore-20230811.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'bookstore-20230811-d214d6a75838.herokuapp.com']
 
 # security.W021
 SECURE_HSTS_PRELOAD = True
