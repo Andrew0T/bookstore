@@ -2,7 +2,7 @@ asgiref==3.7.2
 backports.zoneinfo==0.2.1
 contourpy==1.1.0
 cycler==0.11.0
-dj-database-url==2.0.0
+dj-database-url==2.0.0;python_version<"3.8.7"
 Django==4.2.2
 fonttools==4.40.0
 gunicorn==21.2.0
